@@ -1,6 +1,8 @@
 import turan from './assets/logo.svg'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+import voenkomatDolbaebi from './assets/download.pdf'
+
 function App() {
   return (
     <>
@@ -25,8 +27,6 @@ function App() {
                                 <tbody><tr>
                                     <td>Наименование учебного заведения</td>
                                     <td>Учреждение «Университет «Туран»</td>
-                                    
-                                    
                                 </tr>
                                 <tr>
                                     <td>ID документа</td>
@@ -40,17 +40,6 @@ function App() {
                                     <td>Имя файла</td>
                                     <td>№26158 - Справка об обучении в университете «Туран» от 04.02.2024.pdf</td>
                                 </tr>
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
-                                
                                 
                                                                                                                 <tr>
                                     <td>ФИО студента</td>
@@ -100,8 +89,8 @@ function App() {
                 </h2>
 
                 <div className="d-flex mt-3">
-                  <a className="btn-blue btn-custom m-1" href="https://qr.turan-edu.kz/doc/26158-04.02.2024-JSOiy0rFDY/open" role="button">Открыть</a>
-                  <a className="btn-yellow btn-custom m-1" download="" target="_blank" href="https://qr.turan-edu.kz/doc/26158-04.02.2024-JSOiy0rFDY/download" role="button">Скачать</a>
+                  <a className="btn-blue btn-custom m-1" href={voenkomatDolbaebi} role="button">Открыть</a>
+                  <a className="btn-yellow btn-custom m-1" download="" target="_blank" href={voenkomatDolbaebi} role="button">Скачать</a>
                 </div>
               </div>
             </div>
